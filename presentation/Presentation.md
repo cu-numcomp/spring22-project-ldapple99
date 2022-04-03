@@ -1,8 +1,8 @@
 # Coral: A Brief Overview
 
 ## Links
-[JSS - Coral: a parallel spectral solver for fluid dynamics and partial differential equations](https://joss.theoj.org/papers/10.21105/joss.02978)
-[Coral GitHub Repository](https://github.com/BenMql/coral)
+ *[JSS - Coral: a parallel spectral solver for fluid dynamics and partial differential equations](https://joss.theoj.org/papers/10.21105/joss.02978)
+ *[Coral GitHub Repository](https://github.com/BenMql/coral)
 
 ## What is Coral?
 Created by ... Coral is a ....
