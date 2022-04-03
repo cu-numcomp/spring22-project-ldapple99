@@ -25,7 +25,7 @@ Coral was originally designed to help study **Co**nvection in **Ra**pidly rotati
 
 Do to Coral's flexibility in modeling various elements that use homogeneous quadratic partial differential equations, both accuracy and stability are quite important to the developers. From this, they created a coral.timeseries output file that records the time series of the various runs, for example a run where they compared the time series of velocity-pressure formulation versus toroidal-poloidal velocity decomposition, the latter being 25% faster and only taking 4.0 core-seconds. 
 
-They also found that Coral is quite accruate in it's running, as they tested the run between two different methods (their new method and an older, more slower, method) and comparing the results (in the photograph included below). From this they were able to deduce that their new method was quite accurate as well. 
+They also found that Coral is quite accruate in it's running, as they tested the run between two different methods (their new method and an older, more slower, method) and [comparing the results](https://github.com/BenMql/coral/wiki/benchmark02_RRBC_julien_JFM96) (in the photograph included below). From this they were able to deduce that their new method was quite accurate as well. 
 
 ![image](https://user-images.githubusercontent.com/54420393/161452030-b78f2324-0487-48cc-aa2a-c246688e8a71.png)
 
