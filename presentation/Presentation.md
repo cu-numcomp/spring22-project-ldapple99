@@ -6,7 +6,7 @@
  * [Coral GitHub Repository](https://github.com/BenMql/coral)
 
 ## What is Coral?
-Created by Benjamin Miquel at the Université Paris-Saclay, CEA, CNRS, Service de Physique de l’Etat Condensé (University of Paris-Saclay, CEA, CNRS, Service of Condensed Matter Physics), Coral is a speedy and effiecent time-stepper for solving a wide range of partial differential equations, for example the Navier-Stokes equations below which make up a large portion of fluid dynamics. 
+Mainly created by Benjamin Miquel at the Université Paris-Saclay, CEA, CNRS, Service de Physique de l’Etat Condensé (University of Paris-Saclay, CEA, CNRS, Service of Condensed Matter Physics), Coral is a speedy and effiecent time-stepper for solving a wide range of partial differential equations, for example the Navier-Stokes equations below which make up a large portion of fluid dynamics. 
 
 ![image](https://user-images.githubusercontent.com/54420393/161450734-3defca71-0cab-44af-ab84-f6d70493aa52.png)
 
@@ -22,12 +22,14 @@ Coral was originally designed to help study **Co**nvection in **Ra**pidly rotati
  Coral was written by Benjamin Miquel who is a researcher at the Université Paris-Saclay, CEA, CNRS, Service de Physique de l’Etat Condensé (University of Paris-Saclay, CEA, CNRS, Service of Condensed Matter Physics), where it was originally used to help study the **Co**nvection in **Ra**pidly rotating **L**ayers (**CO RA L**) in fluid mechanics. Mostly written in Fortran on a [GitHub Repository](https://github.com/BenMql/coral), Coral has expaneded and is now commonly used to model various other components that use homogeneous quadratic partial differential equations where it is designed for both  students and researchers with little to no coding experience to use. For this reason, Coral has very much so positively impacted the scientific community researching a wide range of physics (fluid mechaics, theromodyamics, condensed matter, etc).
 
 ## What are the Metrics and Features of Coral?
-  * How do concepts like accuracy, conditioning, stability, and cost appear?
-  * If the software is fast, how is "fast" defined?
-  * If the software is accurate, what does accuracy mean? Could you make a plot, say accuracy vs cost? How would you label the axes to make it relevant to    a stakeholder?
-  * Would different stakeholders want different axes (because they care about different things)?
-  * Are there modeling decisions made in the interest of good conditioning? Are there algorithmic choices made for stability?
-Some of the tests that were done for Coral include...
+
+Do to Coral's flexibility in modeling various elements that use homogeneous quadratic partial differential equations, both accuracy and stability are quite important to the developers. From this, they created a coral.timeseries output file that records the time series of the various runs, for example a run where they compared the time series of velocity-pressure formulation versus toroidal-poloidal velocity decomposition, the latter being 25% faster and only taking 4.0 core-seconds. 
+
+They also found that Coral is quite accruate in it's running, as they tested the run between two different methods (their new method and an older, more slower, method) and comparing the results (in the photograph included below). From this they were able to deduce that their new method was quite accurate as well. 
+
+![image](https://user-images.githubusercontent.com/54420393/161452030-b78f2324-0487-48cc-aa2a-c246688e8a71.png)
+
+Since Coral is now dynamics, various stakeholders are able to change the various axes of what they would like to be measured without worrying about a large loss in accuracy as Coral was designed to be quite stable. 
 
 ## Question I have about the Coral Software
 I wonder....
