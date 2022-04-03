@@ -14,9 +14,8 @@ The image above is taken from the [Navier-Stokes equations Wikipedia page](https
 
 
 ## What is Coral trying to solve?
-  * Rootfinding? Interpolation? Regression?
-  * Is it general-purpose software or domain-specific? What makes it unique? 
-Coral is trying to ....
+
+Coral was originally designed to help study **Co**nvection in **Ra**pidly rotating **L**ayers (**CO RA L**) in a speedy matter using both Fourier Series and Chebyshev polynomials to accurately and quickly model various aspects to fluid mechanics (for example density, temperature, salinity, magnetic field, velocity, etc).  Although now, it is unique in that it can be used to model various other elements that rely on homogeneous quadratic partial differential equations. Coral is special in that it uses a quasi-inverse technique which allows the usage of a large number of Chebyshev Polynomials which allowed the ability for the team to resolve thin boundary layers that are quite common in turbulent flows without losing a large amount of accuracy. 
 
 ## Who are the stakeholders of Coral?
   * Who develops the software, who uses it, who pays for it?
