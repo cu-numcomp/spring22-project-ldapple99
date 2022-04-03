@@ -9,6 +9,7 @@
 Created by Benjamin Miquel at the Université Paris-Saclay, CEA, CNRS, Service de Physique de l’Etat Condensé (University of Paris-Saclay, CEA, CNRS, Service of Condensed Matter Physics), Coral is a speedy and effiecent time-stepper for solving a wide range of partial differential equations, for example the Navier-Stokes equations below which make up a large portion of fluid dynamics. 
 
 ![image](https://user-images.githubusercontent.com/54420393/161450734-3defca71-0cab-44af-ab84-f6d70493aa52.png)
+
 The image above is taken from the [Navier-Stokes equations Wikipedia page](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations)
 
 
