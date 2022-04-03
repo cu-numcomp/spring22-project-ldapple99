@@ -18,12 +18,8 @@ The image above is taken from the [Navier-Stokes equations Wikipedia page](https
 Coral was originally designed to help study **Co**nvection in **Ra**pidly rotating **L**ayers (**CO RA L**) in a speedy matter using both Fourier Series and Chebyshev polynomials to accurately and quickly model various aspects to fluid mechanics (for example density, temperature, salinity, magnetic field, velocity, etc).  Although now, it is unique in that it can be used to model various other elements that rely on homogeneous quadratic partial differential equations. Coral is special in that it uses a quasi-inverse technique which allows the usage of a large number of Chebyshev Polynomials which allowed the ability for the team to resolve thin boundary layers that are quite common in turbulent flows without losing a large amount of accuracy. 
 
 ## Who are the stakeholders of Coral?
-  * Who develops the software, who uses it, who pays for it?
-  * What are they looking for?
-  * How do they communicate and collaborate?
-  * Who uses the software?
-  * Who is impacted (positively or negatively) by use of the software?
- Coral was written by...
+
+ Coral was written by Benjamin Miquel who is a researcher at the Université Paris-Saclay, CEA, CNRS, Service de Physique de l’Etat Condensé (University of Paris-Saclay, CEA, CNRS, Service of Condensed Matter Physics), where it was originally used to help study the **Co**nvection in **Ra**pidly rotating **L**ayers (**CO RA L**) in fluid mechanics. Mostly written in Fortran on a [GitHub Repository](https://github.com/BenMql/coral), Coral has expaneded and is now commonly used to model various other components that use homogeneous quadratic partial differential equations where it is designed for both  students and researchers with little to no coding experience to use. For this reason, Coral has very much so positively impacted the scientific community researching a wide range of physics (fluid mechaics, theromodyamics, condensed matter, etc).
 
 ## What are the Metrics and Features of Coral?
   * How do concepts like accuracy, conditioning, stability, and cost appear?
