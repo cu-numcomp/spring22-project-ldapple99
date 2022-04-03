@@ -31,8 +31,8 @@ They also found that Coral is quite accruate in it's running, as they tested the
 
 Since Coral is now dynamics, various stakeholders are able to change the various axes of what they would like to be measured without worrying about a large loss in accuracy as Coral was designed to be quite stable. 
 
-## Question I have about the Coral Software
-I wonder....
+## Questions I have about the Coral Software
+I wonder what other things we could potentially model using Coral, how many components of physics use quadratic homogeneous partial differental equations? What would it look like to model those various componenets? There seems to be a lot of commands that are used within the program, but I'm curious what would happen if one were to go in and potentially switch up what those commands do. 
 
 ## A potentially intresting experiment using Coral
-During my research into Coral, I started wondering about what if....
+During my research into Coral, I started wondering about what if I were to try modeling something non-fluid mechanics oriented using Coral. For example, what if we were to try and model the Thermodynamics Identity equation with the change in Internal Energy, Entropy, and Volume? What would go into that? How would the graph turn out? Could we possibly compare their older model with the newer version and compare their outputs?
